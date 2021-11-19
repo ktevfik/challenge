@@ -1,20 +1,35 @@
-import java.util.ArrayList;
+class ParkingSystem {
+    int big, medium,small;
+    public ParkingSystem(int big, int medium, int small) {
+        this.big = big;
+        this.medium = medium;
+        this.small = small;
+    }
 
-class Solution {
-    public int subtractProductAndSum(int n) {
-        ArrayList<Integer> arrayList = new ArrayList<>();
+    public boolean addCar(int carType) {
+        if (carType == 1) {
+            if (big >= 1) {
+                big--;
+                return true;
+            } else return false;
 
-        while (n > 0) {
-            arrayList.add(n % 10);
-            n /= 10;
+        } else if (carType == 2) {
+            if (medium >= 1) {
+                medium--;
+                return true;
+            } else return false;
         }
-        long product = arrayList.get(0);
-        long sum = 0;
-        for (int i = 0;i < arrayList.size();i++) {
-            sum += arrayList.get(i);
-            if (i != 0) product *= arrayList.get(i);
-        }
 
-        return (int)(product - sum);
+        if (small >= 1) {
+            small--;
+            return true;
+        }
+        return false;
     }
 }
+
+/**
+ * Your ParkingSystem object will be instantiated and called as such:
+ * ParkingSystem obj = new ParkingSystem(big, medium, small);
+ * boolean param_1 = obj.addCar(carType);
+ */
