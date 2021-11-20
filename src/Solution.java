@@ -1,35 +1,14 @@
-class ParkingSystem {
-    int big, medium,small;
-    public ParkingSystem(int big, int medium, int small) {
-        this.big = big;
-        this.medium = medium;
-        this.small = small;
-    }
+class Solution {
+    public String toLowerCase(String s) {
+        StringBuilder sf = new StringBuilder();
 
-    public boolean addCar(int carType) {
-        if (carType == 1) {
-            if (big >= 1) {
-                big--;
-                return true;
-            } else return false;
-
-        } else if (carType == 2) {
-            if (medium >= 1) {
-                medium--;
-                return true;
-            } else return false;
+        for (int i = 0;i < s.length();i++) {
+            if (Character.isUpperCase(s.charAt(i))) {
+                sf.append((char)(s.charAt(i) + 32));
+            } else {
+                sf.append(s.charAt(i));
+            }
         }
-
-        if (small >= 1) {
-            small--;
-            return true;
-        }
-        return false;
+        return sf.toString();
     }
 }
-
-/**
- * Your ParkingSystem object will be instantiated and called as such:
- * ParkingSystem obj = new ParkingSystem(big, medium, small);
- * boolean param_1 = obj.addCar(carType);
- */
