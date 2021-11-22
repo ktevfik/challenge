@@ -1,15 +1,23 @@
 class Solution {
-    public String replaceDigits(String s) {
-        // even letter - digit odd
-        StringBuilder sf = new StringBuilder();
+    public int diagonalSum(int[][] mat) {
+        int sum = 0;
+        for (int i = 0;i < mat.length;i++) {
+            for (int j = 0;j < mat[i].length;j++) {
+                if (i == j) {
+                    sum += mat[i][j];
+                    System.out.println(mat[i][j]);
+                }
 
-        for (int i = 0; i < s.length();i++) {
-            if (Character.isDigit(s.charAt(i))) {
-                sf.append((char) (s.charAt(i - 1) + Character.getNumericValue(s.charAt(i))));
-            } else {
-                sf.append(s.charAt(i));
+                if (i + j == mat.length) {
+                    sum += mat[i][j];
+
+                    System.out.println(mat[i][j]);
+
+                }
             }
         }
-        return sf.toString();
+        System.out.println(sum);
+        int minusVal = (mat[0].length % 2 == 1 ? mat[mat.length / 2][mat[0].length / 2] : 0);
+        return sum - minusVal;
     }
 }

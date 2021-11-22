@@ -49,6 +49,8 @@ https://leetcode.com/problems/truncate-sentence/
 https://leetcode.com/problems/replace-all-digits-with-characters/
 https://leetcode.com/problems/maximum-product-difference-between-two-pairs/
 22.11.2021
+https://leetcode.com/problems/check-if-the-sentence-is-pangram/
+https://leetcode.com/problems/matrix-diagonal-sum/
 23.11.2021
 24.11.2021
 25.11.2021
