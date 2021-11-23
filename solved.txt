@@ -52,6 +52,8 @@ https://leetcode.com/problems/maximum-product-difference-between-two-pairs/
 https://leetcode.com/problems/check-if-the-sentence-is-pangram/
 https://leetcode.com/problems/matrix-diagonal-sum/
 23.11.2021
+https://leetcode.com/problems/minimum-time-visiting-all-points/
+https://leetcode.com/problems/reverse-string/
 24.11.2021
 25.11.2021
 26.11.2021
