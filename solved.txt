@@ -55,6 +55,7 @@ https://leetcode.com/problems/matrix-diagonal-sum/
 https://leetcode.com/problems/minimum-time-visiting-all-points/
 https://leetcode.com/problems/reverse-string/
 24.11.2021
+https://leetcode.com/problems/count-the-number-of-consistent-strings/
 25.11.2021
 26.11.2021
 27.11.2021
