@@ -57,6 +57,8 @@ https://leetcode.com/problems/reverse-string/
 24.11.2021
 https://leetcode.com/problems/count-the-number-of-consistent-strings/
 25.11.2021
+https://leetcode.com/problems/goal-parser-interpretation/
+https://leetcode.com/problems/xor-operation-in-an-array/
 26.11.2021
 27.11.2021
 28.11.2021
