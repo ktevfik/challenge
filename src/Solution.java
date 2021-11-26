@@ -1,9 +1,15 @@
+import java.util.Arrays;
+
 class Solution {
-    public int xorOperation(int n, int start) {
-        int result = start;
-        for (int i = 1;i < n;i++) {
-            result ^= (start + 2 * i);
+    public int minMovesToSeat(int[] seats, int[] students) {
+        int counter = 0;
+        Arrays.sort(seats);
+        Arrays.sort(students);
+
+        for (int i = 0;i < students.length;i++) {
+            counter += Math.abs(students[i] - seats[i]);
         }
-        return result;
+
+        return counter;
     }
 }
