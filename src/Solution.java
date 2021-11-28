@@ -1,19 +1,12 @@
+import java.util.HashSet;
+import java.util.List;
+import java.util.Set;
+
 class Solution {
-    public int countGoodTriplets(int[] arr, int a, int b, int c) {
-        int counter = 0;
-
-        for (int i = 0; i < arr.length - 2; i++) {
-            for (int j = i + 1; j < arr.length - 1; j++) {
-                if (Math.abs(arr[i] - arr[j]) <= a) {
-                    for (int k = j + 1; k < arr.length; k++) {
-                        if (Math.abs(arr[j] - arr[k]) <= b) {
-                            if (Math.abs(arr[i] - arr[k]) <= c) counter++;
-                        }
-                    }
-                }
-            }
-        }
-
-        return counter;
+    public String destCity(List<List<String>> paths) {
+        Set<String> set= new HashSet<>();
+        for (List<String> l: paths) set.add(l.get(1));
+        for (List<String> l: paths) set.remove(l.get(0));
+        return set.iterator().next();
     }
 }

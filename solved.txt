@@ -66,6 +66,8 @@ https://leetcode.com/problems/minimum-number-of-moves-to-seat-everyone/
 https://leetcode.com/problems/decrypt-string-from-alphabet-to-integer-mapping/
 https://leetcode.com/problems/count-good-triplets/
 28.11.2021
+https://leetcode.com/problems/unique-morse-code-words/
+https://leetcode.com/problems/destination-city/
 29.11.2021
 30.11.2021
 1.12.2021
