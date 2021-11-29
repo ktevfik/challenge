@@ -69,6 +69,8 @@ https://leetcode.com/problems/count-good-triplets/
 https://leetcode.com/problems/unique-morse-code-words/
 https://leetcode.com/problems/destination-city/
 29.11.2021
+https://leetcode.com/problems/defanging-an-ip-address/
+https://leetcode.com/problems/find-target-indices-after-sorting-array/
 30.11.2021
 1.12.2021
 2.12.2021

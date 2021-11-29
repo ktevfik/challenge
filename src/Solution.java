@@ -1,12 +1,18 @@
-import java.util.HashSet;
+import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
-import java.util.Set;
 
 class Solution {
-    public String destCity(List<List<String>> paths) {
-        Set<String> set= new HashSet<>();
-        for (List<String> l: paths) set.add(l.get(1));
-        for (List<String> l: paths) set.remove(l.get(0));
-        return set.iterator().next();
+    public List<Integer> targetIndices(int[] nums, int target) {
+        Arrays.sort(nums);
+
+        List<Integer> list = new ArrayList<>();
+
+        for (int i = 0;i < nums.length;i++) {
+            if (nums[i] == target) {
+                list.add(i);
+            }
+        }
+        return list;
     }
 }
