@@ -72,6 +72,8 @@ https://leetcode.com/problems/destination-city/
 https://leetcode.com/problems/defanging-an-ip-address/
 https://leetcode.com/problems/find-target-indices-after-sorting-array/
 30.11.2021
+https://leetcode.com/problems/reverse-prefix-of-word/
+https://leetcode.com/problems/determine-if-string-halves-are-alike/
 1.12.2021
 2.12.2021
 3.12.2021
