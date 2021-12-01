@@ -75,6 +75,8 @@ https://leetcode.com/problems/find-target-indices-after-sorting-array/
 https://leetcode.com/problems/reverse-prefix-of-word/
 https://leetcode.com/problems/determine-if-string-halves-are-alike/
 1.12.2021
+https://leetcode.com/problems/determine-color-of-a-chessboard-square/
+https://leetcode.com/problems/minimum-operations-to-make-the-array-increasing/
 2.12.2021
 3.12.2021
 4.12.2021
