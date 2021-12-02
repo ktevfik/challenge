@@ -78,6 +78,8 @@ https://leetcode.com/problems/determine-if-string-halves-are-alike/
 https://leetcode.com/problems/determine-color-of-a-chessboard-square/
 https://leetcode.com/problems/minimum-operations-to-make-the-array-increasing/
 2.12.2021
+https://leetcode.com/problems/count-of-matches-in-tournament/
+https://leetcode.com/problems/reverse-words-in-a-string-iii/
 3.12.2021
 4.12.2021
 5.12.2021

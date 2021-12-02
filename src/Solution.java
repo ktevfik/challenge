@@ -1,14 +1,18 @@
 class Solution {
-    public int minOperations(int[] nums) {
+    public String reverseWords(String s) {
+        String[] arr = s.split(" ");
 
-        int result = 0;
-        for (int i = 1; i < nums.length; i++) {
-            if (nums[i] <= nums[i - 1]) {
-                result += nums[i - 1] + 1 - nums[i];
-                nums[i] = nums[i - 1] + 1;
+        StringBuilder sf = new StringBuilder();
+
+        for (int i = 0;i < arr.length;i++) {
+            for (int k = arr[i].length() - 1;k >= 0;k--) {
+                sf.append(arr[i].charAt(k));
+            }
+
+            if (i != arr.length - 1) {
+                sf.append(' ');
             }
         }
-
-        return result;
+        return sf.toString();
     }
 }
