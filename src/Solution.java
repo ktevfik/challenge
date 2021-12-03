@@ -1,15 +1,15 @@
 class Solution {
-    public int maximum69Number (int num) {
-        StringBuilder sb = new StringBuilder();
+    public int balancedStringSplit(String s) {
+        int result = 0;
+        int sum = 0;
         
-        sb.append(num);
-        for(int i = 0 ; i < sb.length() ; i++){
-            if(sb.charAt(i) != '9'){
-                sb.setCharAt(i,'9');
-                break;
+        for (char letter : s.toCharArray()) {
+            sum += (letter == 'R' ? 1 : -1);
+            if (sum == 0) {
+                result++;
             }
         }
         
-        return Integer.parseInt(sb.toString());
+        return result;
     }
 }
