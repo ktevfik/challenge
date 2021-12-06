@@ -1,15 +1,11 @@
 class Solution {
-    public int balancedStringSplit(String s) {
-        int result = 0;
-        int sum = 0;
-        
-        for (char letter : s.toCharArray()) {
-            sum += (letter == 'R' ? 1 : -1);
-            if (sum == 0) {
-                result++;
+    public int numOfStrings(String[] patterns, String word) {
+        int count = 0;
+        for (int i = 0; i < patterns.length; i++) {
+            if (word.contains(patterns[i])) {
+                count++;
             }
         }
-        
-        return result;
+        return count;
     }
 }

@@ -85,7 +85,9 @@ https://leetcode.com/problems/maximum-69-number/
 4.12.2021
 https://leetcode.com/problems/split-a-string-in-balanced-strings/
 5.12.2021
+I was out of town.
 6.12.2021
+https://leetcode.com/problems/number-of-strings-that-appear-as-substrings-in-word/
 7.12.2021
 8.12.2021
 9.12.2021
