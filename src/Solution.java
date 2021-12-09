@@ -1,19 +1,21 @@
 class Solution {
-    public int oddCells(int n, int m, int[][] indices) {
+    public int maxIncreaseKeepingSkyline(int[][] grid) {
+        if(grid == null)
+            return 0;
+        int n = grid.length;
+        int m = grid[0].length;
+        int maxrow[] = new int[n];
+        int maxcol[] = new int[m];
+        for(int i = 0; i < n; i++)
+            for(int j = 0 ; j < m; j++){
+                maxrow[i] = Math.max(maxrow[i], grid[i][j]);
+                maxcol[j] = Math.max(maxcol[j], grid[i][j]);
+            }
         int count = 0;
-        int row[] = new int [n];
-        int col[] = new int [m];
-        for(int x[] : indices)
-        {
-            row[x[0]]++;
-            col[x[1]]++;
-        }    
-        for(int i=0;i<n;i++)
-            for(int j=0;j<m;j++)
-            {
-                if((row[i]+col[j])%2!=0)
-                    count++;
-            }        
+        for(int i = 0; i < n; i++)
+            for(int j = 0 ; j < m; j++)
+                count += (Math.min(maxrow[i], maxcol[j]) - grid[i][j]);
+                
         return count;
     }
 }
