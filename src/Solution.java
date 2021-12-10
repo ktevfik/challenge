@@ -1,21 +1,25 @@
-class Solution {
-    public int maxIncreaseKeepingSkyline(int[][] grid) {
-        if(grid == null)
-            return 0;
-        int n = grid.length;
-        int m = grid[0].length;
-        int maxrow[] = new int[n];
-        int maxcol[] = new int[m];
-        for(int i = 0; i < n; i++)
-            for(int j = 0 ; j < m; j++){
-                maxrow[i] = Math.max(maxrow[i], grid[i][j]);
-                maxcol[j] = Math.max(maxcol[j], grid[i][j]);
+class SubrectangleQueries {
+    int[][] rect;
+    public SubrectangleQueries(int[][] rectangle) {
+        rect = rectangle;
+    }
+
+    public void updateSubrectangle(int row1, int col1, int row2, int col2, int newValue) {
+        for(int r = row1; r <= row2; r++) {
+            for(int c = col1; c <= col2; c++ ) {
+                rect[r][c] = newValue;
             }
-        int count = 0;
-        for(int i = 0; i < n; i++)
-            for(int j = 0 ; j < m; j++)
-                count += (Math.min(maxrow[i], maxcol[j]) - grid[i][j]);
-                
-        return count;
+        }
+    }
+
+    public int getValue(int row, int col) {
+        return rect[row][col];
     }
 }
+
+/**
+ * Your SubrectangleQueries object will be instantiated and called as such:
+ * SubrectangleQueries obj = new SubrectangleQueries(rectangle);
+ * obj.updateSubrectangle(row1,col1,row2,col2,newValue);
+ * int param_2 = obj.getValue(row,col);
+ */

@@ -95,6 +95,7 @@ https://leetcode.com/problems/cells-with-odd-values-in-a-matrix/
 9.12.2021
 https://leetcode.com/problems/max-increase-to-keep-city-skyline/
 10.12.2021
+https://leetcode.com/problems/subrectangle-queries/
 11.12.2021
 12.12.2021
 13.12.2021
