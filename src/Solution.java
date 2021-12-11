@@ -1,25 +1,23 @@
-class SubrectangleQueries {
-    int[][] rect;
-    public SubrectangleQueries(int[][] rectangle) {
-        rect = rectangle;
-    }
+class Solution {
+    public int reverse(int x) {
+        StringBuilder sf = new StringBuilder();
+        sf.append(x);
 
-    public void updateSubrectangle(int row1, int col1, int row2, int col2, int newValue) {
-        for(int r = row1; r <= row2; r++) {
-            for(int c = col1; c <= col2; c++ ) {
-                rect[r][c] = newValue;
-            }
+        for (int i = 0,j = sf.length() - 1;i < j;i++,j--) {
+            char temp = sf.charAt(i);
+            sf.setCharAt(i, sf.charAt(j));
+            sf.setCharAt(j, temp);
         }
-    }
-
-    public int getValue(int row, int col) {
-        return rect[row][col];
+        if (sf.charAt(sf.length() - 1) == '-') {
+            sf.deleteCharAt(sf.length() -1);
+            sf.insert(0,"-");
+        }
+        int res = 0;
+        try {
+            res = Integer.parseInt(sf.toString());
+        } catch (NumberFormatException err) {
+            res = 0;
+        }
+        return res;
     }
 }
-
-/**
- * Your SubrectangleQueries object will be instantiated and called as such:
- * SubrectangleQueries obj = new SubrectangleQueries(rectangle);
- * obj.updateSubrectangle(row1,col1,row2,col2,newValue);
- * int param_2 = obj.getValue(row,col);
- */
