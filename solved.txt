@@ -99,7 +99,9 @@ https://leetcode.com/problems/subrectangle-queries/
 11.12.2021
 https://leetcode.com/problems/sort-the-matrix-diagonally/
 12.12.2021
+I was out of town.
 13.12.2021
+https://leetcode.com/problems/powx-n/
 14.12.2021
 15.12.2021
 16.12.2021
