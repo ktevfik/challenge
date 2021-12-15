@@ -105,6 +105,7 @@ https://leetcode.com/problems/powx-n/
 14.12.2021
 https://leetcode.com/problems/big-countries/
 15.12.2021
+https://leetcode.com/problems/combine-two-tables/
 16.12.2021
 17.12.2021
 18.12.2021
