@@ -109,6 +109,7 @@ https://leetcode.com/problems/combine-two-tables/
 16.12.2021
 https://leetcode.com/problems/reformat-department-table/
 17.12.2021
+https://leetcode.com/problems/rings-and-rods/
 18.12.2021
 19.12.2021
 20.12.2021
