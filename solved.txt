@@ -110,6 +110,7 @@ https://leetcode.com/problems/combine-two-tables/
 https://leetcode.com/problems/reformat-department-table/
 17.12.2021
 https://leetcode.com/problems/rings-and-rods/
+https://leetcode.com/problems/increasing-decreasing-string/
 18.12.2021
 19.12.2021
 20.12.2021
