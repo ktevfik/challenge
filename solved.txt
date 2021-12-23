@@ -121,6 +121,7 @@ https://leetcode.com/problems/partitioning-into-minimum-number-of-deci-binary-nu
 22.12.2021
 https://leetcode.com/problems/encode-and-decode-tinyurl/
 23.12.2021
+https://leetcode.com/problems/exchange-seats/
 24.12.2021
 25.12.2021
 26.12.2021
