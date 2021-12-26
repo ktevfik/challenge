@@ -125,7 +125,9 @@ https://leetcode.com/problems/exchange-seats/
 24.12.2021
 https://leetcode.com/problems/duplicate-emails/
 25.12.2021
+i was working.
 26.12.2021
+https://leetcode.com/problems/customers-who-never-order/
 27.12.2021
 28.12.2021
 29.12.2021
