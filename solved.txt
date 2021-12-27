@@ -129,6 +129,7 @@ i was working.
 26.12.2021
 https://leetcode.com/problems/customers-who-never-order/
 27.12.2021
+https://leetcode.com/problems/employees-earning-more-than-their-managers/
 28.12.2021
 29.12.2021
 30.12.2021
