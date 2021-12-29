@@ -132,6 +132,7 @@ https://leetcode.com/problems/customers-who-never-order/
 https://leetcode.com/problems/employees-earning-more-than-their-managers/
 28.12.2021
 29.12.2021
+https://leetcode.com/problems/not-boring-movies/
 30.12.2021
 31.12.2021
 1.1.2022
