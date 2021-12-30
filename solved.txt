@@ -134,6 +134,7 @@ https://leetcode.com/problems/employees-earning-more-than-their-managers/
 29.12.2021
 https://leetcode.com/problems/not-boring-movies/
 30.12.2021
+https://leetcode.com/problems/second-highest-salary/
 31.12.2021
 1.1.2022
 2.1.2022
