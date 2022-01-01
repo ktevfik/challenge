@@ -1,5 +1,11 @@
 class Solution {
-    public int minPartitions(String n) {
-        return n.chars().max().getAsInt() - '0';
+    public int mostWordsFound(String[] sentences) {
+        int result = 0;
+        for (int i = 0;i < sentences.length;i++) {
+            String[] strs = sentences[i].split(" ");
+
+            if (strs.length > result) result = strs.length;
+        }
+        return result;
     }
 }
