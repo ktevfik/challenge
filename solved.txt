@@ -141,6 +141,7 @@ https://leetcode.com/problems/maximum-number-of-words-found-in-sentences/
 2.1.2022
 https://leetcode.com/problems/rank-scores/
 3.1.2022
+https://leetcode.com/problems/minimum-number-of-operations-to-move-all-balls-to-each-box/
 4.1.2022
 5.1.2022
 6.1.2022
