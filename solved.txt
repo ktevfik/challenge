@@ -146,6 +146,7 @@ https://leetcode.com/problems/minimum-number-of-operations-to-move-all-balls-to-
 https://leetcode.com/problems/nth-highest-salary/
 5.1.2022
 6.1.2022
+https://leetcode.com/problems/design-an-ordered-stream/
 7.1.2022
 8.1.2022
 9.1.2022
