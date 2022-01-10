@@ -1,17 +1,15 @@
 class Solution {
-    public List<List<Integer>> groupThePeople(int[] groupSizes) {
-
-        List<List<Integer>> res = new ArrayList();
-        Map<Integer, List<Integer>> groups = new HashMap<>();
-        for (int i = 0; i < groupSizes.length; ++i) {
-            List<Integer> list = groups.computeIfAbsent(groupSizes[i], k -> new ArrayList());
-            list.add(i);
-            if (list.size() == groupSizes[i]) {
-                res.add(list);
-                groups.put(groupSizes[i], new ArrayList());
+   public int lengthOfLongestSubstring(String s) {
+        if (s.length()==0) return 0;
+        HashMap<Character, Integer> map = new HashMap<Character, Integer>();
+        int max=0;
+        for (int i=0, j=0; i<s.length(); ++i){
+            if (map.containsKey(s.charAt(i))){
+                j = Math.max(j,map.get(s.charAt(i))+1);
             }
+            map.put(s.charAt(i),i);
+            max = Math.max(max,i-j+1);
         }
-        return res;
-
+        return max;
     }
 }

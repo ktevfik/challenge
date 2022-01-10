@@ -153,6 +153,7 @@ https://leetcode.com/problems/group-the-people-given-the-group-size-they-belong-
 9.1.2022
 https://leetcode.com/problems/department-top-three-salaries/
 10.1.2022
+https://leetcode.com/problems/longest-substring-without-repeating-characters/
 11.1.2022
 12.1.2022
 13.1.2022
