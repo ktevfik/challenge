@@ -155,6 +155,7 @@ https://leetcode.com/problems/department-top-three-salaries/
 10.1.2022
 https://leetcode.com/problems/longest-substring-without-repeating-characters/
 11.1.2022
+https://leetcode.com/problems/consecutive-numbers/
 12.1.2022
 13.1.2022
 14.1.2022
