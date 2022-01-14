@@ -1,15 +1,31 @@
+import java.util.*;
+
 class Solution {
-   public int lengthOfLongestSubstring(String s) {
-        if (s.length()==0) return 0;
-        HashMap<Character, Integer> map = new HashMap<Character, Integer>();
-        int max=0;
-        for (int i=0, j=0; i<s.length(); ++i){
-            if (map.containsKey(s.charAt(i))){
-                j = Math.max(j,map.get(s.charAt(i))+1);
+    public int romanToInt(String s) {
+        HashMap<Character, Integer> hashMap = new HashMap<>();
+        hashMap.put('I', 1);
+        hashMap.put('V', 5);
+        hashMap.put('X', 10);
+        hashMap.put('L', 50);
+        hashMap.put('C', 100);
+        hashMap.put('D', 500);
+        hashMap.put('M', 1000);
+
+        int i = 0;
+        int result = 0;
+        while (i < s.length()) {
+            if (i != s.length() - 1) {
+                if (hashMap.get(s.charAt(i)) < hashMap.get(s.charAt(i + 1))) {
+                    result += hashMap.get(s.charAt(i + 1)) - hashMap.get(s.charAt(i));
+                    i++;
+                } else {
+                    result += hashMap.get(s.charAt(i));
+                }
+            } else {
+                result += hashMap.get(s.charAt(i));
             }
-            map.put(s.charAt(i),i);
-            max = Math.max(max,i-j+1);
+            i++;
         }
-        return max;
+        return result;
     }
 }
