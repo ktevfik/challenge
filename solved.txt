@@ -167,6 +167,7 @@ https://leetcode.com/problems/roman-to-integer/
 https://leetcode.com/problems/add-two-numbers/
 17.1.2022
 18.1.2022
+https://leetcode.com/problems/department-highest-salary/
 19.1.2022
 20.1.2022
 21.1.2022
