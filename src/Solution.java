@@ -1,31 +1,17 @@
-import java.util.*;
-
 class Solution {
-    public int romanToInt(String s) {
-        HashMap<Character, Integer> hashMap = new HashMap<>();
-        hashMap.put('I', 1);
-        hashMap.put('V', 5);
-        hashMap.put('X', 10);
-        hashMap.put('L', 50);
-        hashMap.put('C', 100);
-        hashMap.put('D', 500);
-        hashMap.put('M', 1000);
-
-        int i = 0;
-        int result = 0;
-        while (i < s.length()) {
-            if (i != s.length() - 1) {
-                if (hashMap.get(s.charAt(i)) < hashMap.get(s.charAt(i + 1))) {
-                    result += hashMap.get(s.charAt(i + 1)) - hashMap.get(s.charAt(i));
-                    i++;
-                } else {
-                    result += hashMap.get(s.charAt(i));
-                }
+    public int[] rearrangeArray(int[] nums) {
+        int[] arr = new int[nums.length];
+        int i = 0,j = 1,t = 0;
+        while (t < nums.length) {
+            if (nums[t] >= 0) {
+                arr[i] = nums[t];
+                i += 2;
             } else {
-                result += hashMap.get(s.charAt(i));
+                arr[j] = nums[t];
+                j += 2;
             }
-            i++;
+            t++;
         }
-        return result;
+        return arr;
     }
 }
