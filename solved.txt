@@ -179,6 +179,7 @@ https://leetcode.com/problems/delete-duplicate-emails/
 https://leetcode.com/problems/rearrange-array-elements-by-sign/
 24.1.2022
 25.1.2022
+https://leetcode.com/problems/minimum-operations-to-make-array-equal/
 26.1.2022
 27.1.2022
 28.1.2022
