@@ -186,6 +186,7 @@ https://leetcode.com/problems/human-traffic-of-stadium
 28.1.2022
 29.1.2022
 30.1.2022
+https://leetcode.com/problems/rising-temperature/
 31.1.2022
 1.2.2022
 2.2.2022
